@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="jumbotron">
+            <h1 class="display-4 text-center">View Post</h1>
+        </div>
+        <div class="alert alert-primary alert-dismissible fade show" role="alert">
+            {{msg}}
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <!-- <span aria-hidden="true">&times;</span> -->
+            </button>
+        </div>
+        <div class="">
+            <!-- {{% for i in myresult %}} -->
+            <!-- <p>{{i}}</p> -->
+            <div class="jumbotron col-md-6">
+                <h3>Hello, world! <span class="badge badge-dark">Local</span></h3>
+                <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+                <p>By John , 12 Nov 2020</p>
+                <hr class="my-4">
+                <a class="btn btn-primary" href="#" role="button">View Detail</a>
+                <a class="btn btn-warning" href="#" role="button">Edit</a>
+                <a class="btn btn-danger" href="#" role="button">Delete</a>
+              </div>
+              <!-- {{% endfor %}} -->
+        </div>
+    </div>
+</body>
+</html>
